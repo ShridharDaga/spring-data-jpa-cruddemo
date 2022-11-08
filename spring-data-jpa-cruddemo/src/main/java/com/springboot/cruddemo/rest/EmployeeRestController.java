@@ -27,8 +27,8 @@ public class EmployeeRestController {
     public Employee getEmployee(@PathVariable int empId){
         Employee employee = employeeService.findById(empId);
 
-//        if(employee == null)
-//            throw new RuntimeException("Employee not found = " + empId);
+        if(employee == null)
+            throw new RuntimeException("Employee not found = " + empId);
 
         return employee;
     }

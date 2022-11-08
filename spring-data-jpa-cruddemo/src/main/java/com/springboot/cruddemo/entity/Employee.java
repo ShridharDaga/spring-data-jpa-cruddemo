@@ -1,6 +1,8 @@
 package com.springboot.cruddemo.entity;
 
-import lombok.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import javax.persistence.*;
 
@@ -9,8 +11,6 @@ import javax.persistence.*;
 @Data
 @ToString
 @NoArgsConstructor
-@Builder
-@AllArgsConstructor
 public class Employee {
 
     @Id
