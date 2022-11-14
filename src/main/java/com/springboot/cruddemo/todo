@@ -1,0 +1,13 @@
+add mapping
+
+manager -->  dept
+
+manager can be manage more than 1 dept.
+
+emp --> manager
+
+write classes
+
+filters accordingly
+
+dto layer and error handling --> custom and global
